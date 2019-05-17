@@ -3,6 +3,10 @@ from config import *
 from ambientGAN import *
 from ops import *
 
+#this program has referred to the following githubs:
+#https://github.com/AshishBora/ambient-gan
+#https://github.com/shinseung428/ambientGAN_TF/blob/master/ambientGAN.py
+
 Trainmode=True
 def train(args, sess, model, RealDsIterator):
     # optimizers
