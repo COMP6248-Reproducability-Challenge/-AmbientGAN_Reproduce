@@ -1,4 +1,3 @@
-# -AmbientGAN_Reproduce
 # AmbientGAN_Reproduce
 This repository provides code to reproduce results from the paper AmbientGAN: Generative models from lossy measurements.
 
