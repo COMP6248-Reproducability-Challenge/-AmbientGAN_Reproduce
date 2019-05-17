@@ -2,7 +2,9 @@ import tensorflow as tf
 from config import *
 from ambientGAN import *
 import time
-
+#this program has referred to the following githubs:
+#https://github.com/AshishBora/ambient-gan
+#https://github.com/shinseung428/ambientGAN_TF/blob/master/ambientGAN.py
 
 def train(args, sess, model):
     #optimizers
