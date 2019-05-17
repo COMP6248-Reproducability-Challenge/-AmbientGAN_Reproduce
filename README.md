@@ -2,14 +2,16 @@
 This repository provides code to reproduce results from the paper AmbientGAN: Generative models from lossy measurements.
 
     This repository is a work under COMP6248 Reproducability Challenge project. 
-    The code has referred to        
-    #https://github.com/AshishBora/ambient-gan 
-    and #https://github.com/shinseung428/ambientGAN_TF/blob/master/ambientGAN.py
-
+    The code is mainly based on https://github.com/shinseung428/ambientGAN_TF/blob/master/ambientGAN.py. This is a Tensorflow implementation of AmbientGAN but for celeA dataset only.
+    Our contribution: 
+    1. Support Mnist dataset and related use cases. While following the framework of the above code, we made heavy changies in models and corresponding functions.
+    2. For experiments on Celeb dataset, we kept the framework of the above code but made lots of modifications in order to fit our designs. To be specific, we changed the structure of the generator and discriminator in ambientGAN.py file in order to have better performance. Moreover, we changed some hard coded configurations to fit our experiment and added some new functions to output the result images we want.
+    Also we refered the implementation of original paper https://github.com/AshishBora/ambient-gan for a few low level tool functions.
+    
 
     Requirements:
-    Python 3.7
-    Tensorflow >= 1.4.0
+    Python 2.7
+    Tensorflow
     matplotlib
     scipy
     numpy
@@ -19,7 +21,7 @@ This repository provides code to reproduce results from the paper AmbientGAN: Ge
     opencv-python
     pandas
     
-    Test dataset:
+    Dataset:
     Mnist
     CelebA
     
