@@ -58,9 +58,9 @@ This repository provides code to reproduce results from the paper AmbientGAN: Ge
     3. Run “train.py”
     
     Mnist result
-![image](https://github.com/chickenshawama/AmbientGAN_COMP6248-Reproducability-Challenge/blob/master/images/p1.png)
+![image](https://github.com/RickRe/AmbientGAN_Reproduce/blob/master/images/p1.png)
     block pixel probability=0.5
-![image](https://github.com/chickenshawama/AmbientGAN_COMP6248-Reproducability-Challenge/blob/master/images/p2.png)
+![image](https://github.com/RickRe/AmbientGAN_Reproduce/blob/master/images/p2.png)
     hybrid measurement
     
     Celeb result
